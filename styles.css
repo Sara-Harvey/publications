@@ -19,13 +19,8 @@ body {
 
 h1 {
   font-family: Permanent Marker, sans-serif;
-  font-size: 3em;
+  font-size: 3.5em;
   color: #A9A9A9;
-}
-
-header {
-  margin: 0;
-  padding: 0;
 }
 
 p {
@@ -36,12 +31,12 @@ p {
 
 a:link, a:visited, a:active {
   text-decoration: none;
-  color: #A9A9A9;
+  color: black;
 }
 
 a:hover {
   text-decoration: none;
-  color: black;
+  color: #A9A9A9;
 }
 
 .flex-container {
@@ -61,11 +56,19 @@ menu {
   display: flex 1;
   padding: 10px;
   font-family: Permanent Marker, sans-serif;
-  color: #A9A9A9;
 }
 
 menu a {
   font-size: 1.75em;
+}
+
+menu a:link, menu a:visited, menu a:active {
+  text-decoration: none;
+  color: black;
+}
+
+menu a:hover {
+  text-decoration: none;
   color: #A9A9A9;
 }
 
