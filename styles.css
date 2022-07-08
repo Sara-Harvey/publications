@@ -45,29 +45,32 @@ a:hover {
   min-height: 100vh;
 }
 
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  padding-right: 40px;
-}
-
-menu {
-  display: flex 1;
-  padding: 10px;
+ul {
   font-family: Permanent Marker, sans-serif;
+  font-size: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 2em 0 0;
+  overflow: hidden;
 }
 
-menu a {
-  font-size: 1.75em;
+li {
+  float: right;
 }
 
-menu a:link, menu a:visited, menu a:active {
+li a {
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:link, menu a:visited, menu a:active {
   text-decoration: none;
   color: black;
 }
 
-menu a:hover {
+li a:hover {
   text-decoration: none;
   color: #A9A9A9;
 }
